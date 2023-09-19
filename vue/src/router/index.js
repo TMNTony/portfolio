@@ -13,6 +13,7 @@ import Portfolio from '../views/Portfolio.vue'
 const routes = [
   {
     path: "/",
+    name: 'profile',
     component: Profile,
   },
   {
