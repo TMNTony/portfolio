@@ -31,11 +31,13 @@
               class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
               type="button"
             >
+            <a href="https://www.linkedin.com/in/anthonypcarlson/"></a>
               <i class="flex fab fa-linkedin"></i></button
             ><button
               class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
               type="button"
             >
+            <a href="https://github.com/TMNTony"></a>
               <i class="flex fab fa-github"></i>
             </button>
           </div>
