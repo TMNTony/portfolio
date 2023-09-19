@@ -13,7 +13,7 @@ export function createStore() {
             "It utilizes the JGraphT Java Graph Library to efficiently manage course scheduling and resolve circular dependencies.",
           skills: ["Java", "Vue3", "Postgresql", "SpringBoot", "Tailwind"],
           picture: null,
-          link: "",
+          link: "https://github.com/TMNTony/course-scheduler",
         },
         {
           id: 2,
@@ -25,7 +25,7 @@ export function createStore() {
             "Collaborated closely with the back-end team for seamless API integration and proficient data management.",
           skills: ["Java", "Vue3", "Postgresql", "SpringBoot"],
           picture: null,
-          link: "",
+          link: "https://github.com/TMNTony/EduHub",
         },
         {
           id: 3,
@@ -36,7 +36,7 @@ export function createStore() {
             "Ensured secure access with authentication tokens and implemented strict transfer rules for secure transactions.",
           skills: ["Java", "SpringBoot", "Postgresql"],
           picture: null,
-          link: "",
+          link: "https://github.com/TMNTony/tenmo",
         },
       ],
     },

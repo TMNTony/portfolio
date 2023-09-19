@@ -45,20 +45,22 @@
                 :key="project.id"
                 class="flex flex-col items-center justify-around mt-12"
               >
-                <div>
+                <div class="text-xl leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase">
                   {{ project.name }}
                 </div>
                 <div>
-                  {{ project.image }}
+                  {{ project.picture }}
                 </div>
-                <div class="flex margin-10">
-                  <div v-for="skill in project.skills" :key="skill" class="">
+                <div class="flex space-x-5">
+                  <div v-for="skill in project.skills" :key="skill" class="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase">
+                    <i class="fas fa-cog text-green-500 mr-2"></i>
                     {{ skill }}
                   </div>
                 </div>
-                <div>
+                <div class="text-sm leading-normal mt-0 mb-2 w-2/3">
                   {{ project.description }}
                 </div>
+                <a :href="project.link" target="_blank" rel="noopener noreferrer" class="text-sm leading-normal mt-0 mb-2 text-blue-500 font-bold uppercase">GitHub</a>
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
   <footer class="relative bg-gray-300 pt-8 pb-6">
     <div
       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-      style="height: 80px;"
+      style="height: 80px"
     >
       <svg
         class="absolute bottom-0 overflow-hidden"
@@ -27,38 +27,36 @@
             Find me on any of these platforms
           </h5>
           <div class="mt-6">
-  <a href="https://linkedin.com/in/anthonypcarlson">
-    <button
-      class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 rounded-full outline-none focus:outline-none mr-2 p-3"
-      type="button"
-    >
-      <i class="flex fab fa-linkedin"></i>
-    </button>
-  </a>
+            <a href="https://linkedin.com/in/anthonypcarlson">
+              <button
+                class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-linkedin"></i>
+              </button>
+            </a>
 
-  <a href="https://github.com/TMNTony">
-    <button
-      class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 rounded-full outline-none focus:outline-none mr-2 p-3"
-      type="button"
-    >
-      <i class="flex fab fa-github"></i>
-    </button>
-  </a>
+            <a href="https://github.com/TMNTony">
+              <button
+                class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-github"></i>
+              </button>
+            </a>
 
-  <a href="https://www.instagram.com/tmntony26/">
-    <button
-      class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 rounded-full outline-none focus:outline-none mr-2 p-3"
-      type="button"
-    >
-      <i class="flex fab fa-instagram"></i>
-    </button>
-  </a>
-</div>
-
+            <a href="https://www.instagram.com/tmntony26/">
+              <button
+                class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 rounded-full outline-none focus:outline-none mr-2 p-3"
+                type="button"
+              >
+                <i class="flex fab fa-instagram"></i>
+              </button>
+            </a>
+          </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
           <div class="flex justify-end flex-wrap items-top mb-6">
-            
             <div class="w-full lg:w-4/12 px-4">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
@@ -66,11 +64,7 @@
               >
               <ul class="list-unstyled">
                 <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="../assets/Anthony Carlson - Resume.pdf" download="../assets/Anthony Carlson - Resume.pdf"
-                    >My Resume</a
-                  >
+                  <router-link class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" :to="{ name: 'resume' }">My Resume</router-link>
                 </li>
                 <li>
                   <a
@@ -90,8 +84,7 @@
       >
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-sm text-gray-600 font-semibold py-1">
-            Copyright © {{date}} Tony Carlson
-          
+            Copyright © {{ date }} Tony Carlson
           </div>
         </div>
       </div>
@@ -102,8 +95,8 @@
 export default {
   data() {
     return {
-      date: new Date().getFullYear()
-    }
-  }
-}
+      date: new Date().getFullYear(),
+    };
+  },
+};
 </script>
