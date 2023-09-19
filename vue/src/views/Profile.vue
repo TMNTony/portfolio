@@ -95,9 +95,7 @@
                       education experience adds diversity and valuable insights
                       to any project.
                     </p>
-                    <a href="#pablo" class="font-normal text-pink-500"
-                      >My Portfolio</a
-                    >
+                    <router-link :to="{ name: 'portfolio' }">My Portfolio</router-link>
                   </div>
                 </div>
               </div>
