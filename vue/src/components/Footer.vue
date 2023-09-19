@@ -27,18 +27,34 @@
             Find me on any of these platforms
           </h5>
           <div class="mt-6">
-            <button
-              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-              type="button"
-            >
-              <i class="flex fab fa-linkedin"></i></button
-            ><button
-              class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-              type="button"
-            >
-              <i class="flex fab fa-github"></i>
-            </button>
-          </div>
+  <a href="https://linkedin.com/in/anthonypcarlson">
+    <button
+      class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 rounded-full outline-none focus:outline-none mr-2 p-3"
+      type="button"
+    >
+      <i class="flex fab fa-linkedin"></i>
+    </button>
+  </a>
+
+  <a href="https://github.com/TMNTony">
+    <button
+      class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 rounded-full outline-none focus:outline-none mr-2 p-3"
+      type="button"
+    >
+      <i class="flex fab fa-github"></i>
+    </button>
+  </a>
+
+  <a href="https://www.instagram.com/tmntony26/">
+    <button
+      class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 rounded-full outline-none focus:outline-none mr-2 p-3"
+      type="button"
+    >
+      <i class="flex fab fa-instagram"></i>
+    </button>
+  </a>
+</div>
+
         </div>
         <div class="w-full lg:w-6/12 px-4">
           <div class="flex justify-end flex-wrap items-top mb-6">
@@ -52,29 +68,15 @@
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
+                    href="../assets/Anthony Carlson - Resume.pdf" download="../assets/Anthony Carlson - Resume.pdf"
                     >My Resume</a
                   >
                 </li>
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/terms"
-                    >Terms &amp; Conditions</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/privacy"
-                    >Privacy Policy</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://creative-tim.com/contact-us"
-                    >Contact Us</a
+                    href="mailto:youremail@example.com"
+                    >Contact Me</a
                   >
                 </li>
               </ul>

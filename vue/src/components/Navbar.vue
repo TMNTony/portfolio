@@ -23,11 +23,21 @@
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#pablo"
+              href="https://github.com/TMNTony"
               ><i
                 class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg"
               ></i
               ><span class="lg:hidden inline-block ml-2">Star</span></a
+            >
+          </li>
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="https://www.instagram.com/tmntony26/"
+              ><i
+                class="lg:text-gray-300 text-gray-500 fab fa-instagram text-lg leading-lg"
+              ></i
+              ><span class="lg:hidden inline-block ml-2">Share</span></a
             >
           </li>
         </ul>

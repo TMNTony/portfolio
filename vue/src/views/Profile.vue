@@ -87,14 +87,16 @@
                 <div class="flex flex-wrap justify-center">
                   <div class="w-full lg:w-9/12 px-4">
                     <p class="mb-4 text-lg leading-relaxed text-gray-800">
-                      An artist of considerable range, Jenna the name taken by
-                      Melbourne-raised, Brooklyn-based Nick Murphy writes,
-                      performs and records all of his own music, giving it a
-                      warm, intimate feel with a solid groove structure. An
-                      artist of considerable range.
+                      I am a software developer with a background in music and
+                      higher education. I have a solid foundation in software
+                      and web development. I am known for my problem-solving
+                      abilities, meticulous attention to detail, and a passion
+                      for continuous learning. My unique blend of music and
+                      education experience adds diversity and valuable insights
+                      to any project.
                     </p>
                     <a href="#pablo" class="font-normal text-pink-500"
-                      >Show more</a
+                      >My Portfolio</a
                     >
                   </div>
                 </div>
