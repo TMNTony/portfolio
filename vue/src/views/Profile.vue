@@ -93,9 +93,11 @@
                       abilities, meticulous attention to detail, and a passion
                       for continuous learning. My unique blend of music and
                       education experience adds diversity and valuable insights
-                      to any project.
+                      to any project. In my freetime, my hobbies include specialty coffee
+                      and continuing to make music both on my own, and with different
+                      ensembles in the Birmingham metro area.
                     </p>
-                    <router-link :to="{ name: 'portfolio' }">My Portfolio</router-link>
+                    <router-link :to="{ name: 'portfolio' }" class="text-sm leading-normal mt-0 mb-2 text-blue-500 font-bold uppercase">My Portfolio</router-link>
                   </div>
                 </div>
               </div>

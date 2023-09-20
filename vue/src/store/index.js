@@ -10,7 +10,8 @@ export function createStore() {
           description:
             "Designed and implemented a web-based Degree Planner application that enables advisors to plan course schedules and track degree progress for students." +
             "The application utilizes Java, and PostgreSQL to create a backend API that creates course schedules based on academic requirements." +
-            "It utilizes the JGraphT Java Graph Library to efficiently manage course scheduling and resolve circular dependencies.",
+            "It utilizes the JGraphT Java Graph Library to efficiently manage course scheduling and resolve circular dependencies.  The end result" +
+            " produces a full degree plan that maps out a student's path from graduation from day 1.",
           skills: ["Java", "Vue3", "Postgresql", "SpringBoot", "Tailwind"],
           picture: null,
           link: "https://github.com/TMNTony/course-scheduler",
