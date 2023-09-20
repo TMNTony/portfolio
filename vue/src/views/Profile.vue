@@ -2,7 +2,7 @@
   <div>
     <navbar-component></navbar-component>
     <main class="profile-page">
-      <section class="relative block" style="height: 500px">
+      <section class="relative block" style="height: 500px" >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
           style="
@@ -34,15 +34,15 @@
           </svg>
         </div>
       </section>
-      <section class="relative py-16 bg-gray-300">
+      <section class="relative py-12 bg-gray-300">
         <div class="container mx-auto px-4">
           <div
             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64"
           >
             <div class="px-6">
-              <div class="flex flex-row items-center justify-around mt-12">
+              <div class="flex flex-row items-center justify-around mt-8">
                 <!-- Profile Image -->
-                <div class="w-96 h-96 rounded-full overflow-hidden">
+                <div class="w-64 h-64 rounded-full overflow-hidden">
                   <img
                     src="../assets/Anthony Calrson.jpeg"
                     alt="profile picture"
@@ -65,7 +65,7 @@
                     ></i>
                     Birmingham, Alabama
                   </div>
-                  <div class="mb-2 text-gray-700 mt-10">
+                  <div class="mb-2 text-gray-700 mt-5">
                     <i class="fas fa-briefcase mr-2 text-lg text-gray-500"></i
                     >Software Developer
                   </div>
@@ -83,10 +83,10 @@
                   </div>
                 </div>
               </div>
-              <div class="mt-10 py-10 border-t border-gray-300 text-center">
+              <div class="mt-5 py-10 border-t border-gray-300 text-center">
                 <div class="flex flex-wrap justify-center">
                   <div class="w-full lg:w-9/12 px-4">
-                    <p class="mb-4 text-lg leading-relaxed text-gray-800">
+                    <p class="mb-2 text-lg leading-relaxed text-gray-800">
                       I am a software developer with a background in music and
                       higher education. I have a solid foundation in software
                       and web development. I am known for my problem-solving
@@ -97,7 +97,7 @@
                       and continuing to make music both on my own, and with different
                       ensembles in the Birmingham metro area.
                     </p>
-                    <router-link :to="{ name: 'portfolio' }" class="text-sm leading-normal mt-0 mb-2 text-blue-500 font-bold uppercase">My Portfolio</router-link>
+                    <router-link :to="{ name: 'portfolio' }" class="text-sm leading-normal text-blue-500 font-bold uppercase">My Portfolio</router-link>
                   </div>
                 </div>
               </div>
