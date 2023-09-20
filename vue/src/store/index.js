@@ -12,8 +12,8 @@ export function createStore() {
             "The application utilizes Java, and PostgreSQL to create a backend API that creates course schedules based on academic requirements." +
             "It utilizes the JGraphT Java Graph Library to efficiently manage course scheduling and resolve circular dependencies.  The end result" +
             " produces a full degree plan that maps out a student's path from graduation from day 1.",
-          skills: ["Java", "Vue3", "Postgresql", "SpringBoot", "Tailwind"],
-          picture: null,
+          skills: ["Java", "Vue3", "Postgresql", "Tailwind"],
+          pictures: ["/src/assets/Course Scheduler Output.png"],
           link: "https://github.com/TMNTony/course-scheduler",
         },
         {
@@ -24,8 +24,8 @@ export function createStore() {
             "Executed Vue.js, Java, and PostgreSQL technologies for seamless functionality." +
             "Led the development of the front-end user interface with Vue.js and effectively managed state using Vuex." +
             "Collaborated closely with the back-end team for seamless API integration and proficient data management.",
-          skills: ["Java", "Vue3", "Postgresql", "SpringBoot"],
-          picture: null,
+          skills: ["Java", "Vue3", "Postgresql"],
+          pictures: ["/src/assets/EDUHub 1.png", "/src/assets/EDUHub 2.png"],
           link: "https://github.com/TMNTony/EduHub",
         },
         {
@@ -35,8 +35,8 @@ export function createStore() {
             "Developed a RESTful API server and command-line application for an online payment service." +
             "Instituted user registration, login, balance visualization, and facilitated money transfers and requests among users." +
             "Ensured secure access with authentication tokens and implemented strict transfer rules for secure transactions.",
-          skills: ["Java", "SpringBoot", "Postgresql"],
-          picture: null,
+          skills: ["Java", "Postgresql"],
+          pictures: ["/src/assets/tenmo 1.png", "/src/assets/tenmo 2.png", "/src/assets/tenmo 3.png"],
           link: "https://github.com/TMNTony/tenmo",
         },
       ],

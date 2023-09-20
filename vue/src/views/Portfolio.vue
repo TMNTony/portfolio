@@ -37,35 +37,13 @@
       <section class="relative py-16 bg-gray-300">
         <div class="container mx-auto px-4">
           <div
-            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64"
+            
           >
-            <div class="px-6">
-              <div
-                v-for="project in projects"
-                :key="project.id"
-                class="flex flex-col items-center justify-around mt-12"
-              >
-                <div class="text-xl leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase">
-                  {{ project.name }}
-                </div>
-                <div>
-                  {{ project.picture }}
-                </div>
-                <div class="flex space-x-5">
-                  <div v-for="skill in project.skills" :key="skill" class="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase">
-                    <i class="fas fa-cog text-green-500 mr-2"></i>
-                    {{ skill }}
-                  </div>
-                </div>
-                <div class="text-sm leading-normal mt-0 mb-2 w-2/3">
-                  {{ project.description }}
-                </div>
-                <a :href="project.link" target="_blank" rel="noopener noreferrer" class="text-sm leading-normal mt-0 mb-2 text-blue-500 font-bold uppercase">GitHub</a>
-              </div>
-            </div>
+          <project v-for="project in projects" :key="project.id" :project="project"   />
           </div>
         </div>
       </section>
+
     </main>
     <footer-component></footer-component>
   </div>
@@ -73,11 +51,13 @@
 <script>
 import NavbarComponent from "../components/Navbar.vue";
 import FooterComponent from "../components/Footer.vue";
+import Project from "../components/Project.vue";
 export default {
   name: "profile-page",
   components: {
     NavbarComponent,
     FooterComponent,
+    Project,
   },
   data() {
     return {

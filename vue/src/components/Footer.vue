@@ -1,7 +1,7 @@
 <template>
   <footer class="relative bg-gray-300 pt-8 pb-6">
     <div
-      class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-10"
       style="height: 80px"
     >
       <svg
@@ -59,16 +59,16 @@
           <div class="flex justify-end flex-wrap items-top mb-6">
             <div class="w-full lg:w-4/12 px-4">
               <span
-                class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+                class="block uppercase text-gray-600 text-xl font-semibold mb-2"
                 >Other Resources</span
               >
               <ul class="list-unstyled">
                 <li>
-                  <router-link class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm" :to="{ name: 'resume' }">My Resume</router-link>
+                  <router-link class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-lg" :to="{ name: 'resume' }">My Resume</router-link>
                 </li>
                 <li>
                   <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-lg"
                     href="mailto:youremail@example.com"
                     >Contact Me</a
                   >
