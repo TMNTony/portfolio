@@ -34,10 +34,10 @@
           </svg>
         </div>
       </section>
-      <section class="relative py-16 bg-gray-300">
+      <section class="relative py-6 bg-gray-300">
         <div class="container mx-auto px-4">
           <div
-            
+          class="flex flex-col -mt-64"
           >
           <project v-for="project in projects" :key="project.id" :project="project"   />
           </div>
@@ -62,12 +62,16 @@ export default {
   data() {
     return {
       projects: [],
+      
     };
   },
   methods: {
     getProjects() {
       this.projects = this.$store.getters.getProjects;
     },
+    showPics(){
+        this.showPictures = !this.showPictures
+    }
   },
   created() {
     this.getProjects();

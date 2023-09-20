@@ -8,7 +8,8 @@
       >
         {{ project.name }}
       </div>
-      <div class="flex">
+      <div @click="showPics()" class="text-sm leading-normal mt-0 mb-2 text-blue-500 cursor-pointer">Show Pictures</div>
+      <div v-if="showPictures" class="flex">
         <div
           v-for="picture in project.pictures"
           :key="picture"
@@ -58,7 +59,7 @@
     <img
       :src="modalImageUrl"
       id="modal-img"
-      class="max-w-[800px] max-h-[600px] object-cover z-100"
+      class=" object-cover z-100"
     />
   </div>
 </template>
@@ -72,6 +73,7 @@ export default {
   data() {
     return {
       showModal: false,
+      showPictures: false,
       modalImageUrl: "",
     };
   },
@@ -83,6 +85,9 @@ export default {
     closeModal() {
       this.showModal = false;
     },
+    showPics(){
+        this.showPictures = !this.showPictures
+    }
   },
 };
 </script>
