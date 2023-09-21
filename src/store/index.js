@@ -25,7 +25,7 @@ export function createStore() {
             "Led the development of the front-end user interface with Vue.js and effectively managed state using Vuex." +
             "Collaborated closely with the back-end team for seamless API integration and proficient data management.",
           skills: ["Java", "Vue3", "Postgresql"],
-          pictures: ["EDUHub1.jpeg", "EDUHub2.jpeg"],
+          pictures: ["EDUHub1.jpg", "EDUHub2.jpg"],
           link: "https://github.com/TMNTony/EduHub",
         },
         {
@@ -36,7 +36,7 @@ export function createStore() {
             "Instituted user registration, login, balance visualization, and facilitated money transfers and requests among users." +
             "Ensured secure access with authentication tokens and implemented strict transfer rules for secure transactions.",
           skills: ["Java", "Postgresql"],
-          pictures: ["tenmo1.jpeg", "tenmo2.jpeg", "tenmo3.jpeg"],
+          pictures: ["tenmo1.jpg", "tenmo2.jpg", "tenmo3.jpg"],
           link: "https://github.com/TMNTony/tenmo",
         },
       ],
