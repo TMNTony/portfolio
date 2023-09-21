@@ -4,7 +4,7 @@
   >
     <div class="flex flex-col items-center justify-around mt-12">
       <div
-        class="text-xl leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase"
+        class="text-xl leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase text-center"
       >
         {{ project.name }}
       </div>
