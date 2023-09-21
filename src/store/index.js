@@ -13,7 +13,7 @@ export function createStore() {
             "It utilizes the JGraphT Java Graph Library to efficiently manage course scheduling and resolve circular dependencies.  The end result" +
             " produces a full degree plan that maps out a student's path from graduation from day 1.",
           skills: ["Java", "Vue3", "Postgresql", "Tailwind"],
-          pictures: ["/assets/Course Scheduler Output.jpeg"],
+          pictures: ['/assets/Course Scheduler Output.jpeg'],
           link: "https://github.com/TMNTony/course-scheduler",
         },
         {
