@@ -39,14 +39,14 @@
           <div
             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64"
           >
-            <div class="px-6">
+            <div class="">
               <div class="flex flex-row items-center justify-around mt-8">
                 <!-- Profile Image -->
                 <div class="w-64 h-64 rounded-full overflow-hidden">
                   <img
                     src="../assets/headshot.jpg"
                     alt="profile picture"
-                    class="w-full h-full object-cover object-top"
+                    class="w-full h-full object-cover object-top flex"
                   />
                 </div>
 
