@@ -44,7 +44,7 @@
                 <!-- Profile Image -->
                 <div class="w-64 h-64 rounded-full overflow-hidden">
                   <img
-                    src="/src/assets/headshot.jpg"
+                    src="../assets/headshot.jpg"
                     alt="profile picture"
                     class="w-full h-full object-cover object-top"
                   />
