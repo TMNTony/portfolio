@@ -13,7 +13,7 @@ export function createStore() {
             "It utilizes the JGraphT Java Graph Library to efficiently manage course scheduling and resolve circular dependencies.  The end result" +
             " produces a full degree plan that maps out a student's path from graduation from day 1.",
           skills: ["Java", "Vue3", "Postgresql", "Tailwind"],
-          pictures: ["/src/assets/Course Scheduler Output.png"],
+          pictures: ["/assets/Course Scheduler Output.jpeg"],
           link: "https://github.com/TMNTony/course-scheduler",
         },
         {
@@ -25,7 +25,7 @@ export function createStore() {
             "Led the development of the front-end user interface with Vue.js and effectively managed state using Vuex." +
             "Collaborated closely with the back-end team for seamless API integration and proficient data management.",
           skills: ["Java", "Vue3", "Postgresql"],
-          pictures: ["/src/assets/EDUHub 1.png", "/src/assets/EDUHub 2.png"],
+          pictures: ["/src/assets/EDUHub 1.jpeg", "/src/assets/EDUHub 2.jpeg"],
           link: "https://github.com/TMNTony/EduHub",
         },
         {
@@ -36,7 +36,7 @@ export function createStore() {
             "Instituted user registration, login, balance visualization, and facilitated money transfers and requests among users." +
             "Ensured secure access with authentication tokens and implemented strict transfer rules for secure transactions.",
           skills: ["Java", "Postgresql"],
-          pictures: ["/src/assets/tenmo 1.png", "/src/assets/tenmo 2.png", "/src/assets/tenmo 3.png"],
+          pictures: ["/src/assets/tenmo 1.jpeg", "/src/assets/tenmo jpeg", "/src/assets/tenmo 3.jpeg"],
           link: "https://github.com/TMNTony/tenmo",
         },
       ],
