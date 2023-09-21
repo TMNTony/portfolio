@@ -8,7 +8,12 @@
       >
         {{ project.name }}
       </div>
-      <div @click="showPics()" class="text-sm leading-normal mt-0 mb-2 text-blue-500 cursor-pointer">Show Pictures</div>
+      <div
+        @click="showPics()"
+        class="text-sm leading-normal mt-0 mb-2 text-blue-500 cursor-pointer"
+      >
+        Show Pictures
+      </div>
       <div v-if="showPictures" class="flex">
         <div
           v-for="picture in project.pictures"
@@ -16,10 +21,10 @@
           class="relative m-10 border hover:border-indigo-500"
         >
           <img
-            :src="picture"
-            alt=""
+            :src="require(`@/assets/${picture}`)"
+            alt="Example Image"
             class="w-32 h-32 z-0"
-            @click.prevent="openModal(picture)"
+            @click.prevent="openModal(`@/assets/${picture}`)"
           />
         </div>
         <!-- Modal -->
@@ -56,11 +61,7 @@
       @click="closeModal"
       >&times;</a
     >
-    <img
-      :src="modalImageUrl"
-      id="modal-img"
-      class=" object-cover z-100"
-    />
+    <img :src="modalImageUrl" id="modal-img" class="object-cover z-100" />
   </div>
 </template>
 
@@ -85,9 +86,9 @@ export default {
     closeModal() {
       this.showModal = false;
     },
-    showPics(){
-        this.showPictures = !this.showPictures
-    }
+    showPics() {
+      this.showPictures = !this.showPictures;
+    },
   },
 };
 </script>
