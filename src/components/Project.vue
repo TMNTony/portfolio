@@ -21,7 +21,7 @@
           class="relative m-10 border hover:border-indigo-500"
         >
           <img
-            :src="requireImage(picture)"
+            :src="imageUrl(picture)"
             alt="Example Image"
             class="w-32 h-32 z-0"
             @click.prevent="openModal(picture)"
@@ -79,11 +79,11 @@ export default {
     };
   },
   methods: {
-    requireImage(imagePath) {
-      return require(`@/assets/${imagePath}`);
+    imageUrl(imagePath) {
+      return new URL(`/src/assets/${imagePath}`, import.meta.url)
     },
     openModal(imagePath) {
-      this.modalImageUrl = require(`@/assets/${imagePath}`);
+      this.modalImageUrl = new URL(`/src/assets/${imagePath}`, import.meta.url);
       this.showModal = true;
     },
     closeModal() {
