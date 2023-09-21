@@ -44,7 +44,7 @@
                 <!-- Profile Image -->
                 <div class="w-64 h-64 rounded-full overflow-hidden">
                   <img
-                    src="../assets/Anthony Calrson.jpeg"
+                    src="/src/assets/headshot.jpeg"
                     alt="profile picture"
                     class="w-full h-full object-cover object-top"
                   />
