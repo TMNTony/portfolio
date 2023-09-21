@@ -69,7 +69,7 @@
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-lg"
-                    href="mailto:youremail@example.com"
+                    href="mailto:carlson.tony@gmail.com"
                     >Contact Me</a
                   >
                 </li>

@@ -18,7 +18,7 @@
         <div
           v-for="picture in project.pictures"
           :key="picture"
-          class="relative m-10 border hover:border-indigo-500"
+          class="relative m-10 border hover:border-indigo-500 cursor-pointer"
         >
           <img
             :src="imageUrl(picture)"
