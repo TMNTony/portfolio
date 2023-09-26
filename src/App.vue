@@ -1,6 +1,6 @@
 <template>
-  <div id="app" class="min-h-screen bg-gray-300">
-    <router-view class="h-screen" />
+  <div id="app" class="min-h-screen bg-gray-300 flex flex-col justify-between">
+    <router-view class="flex-1" />
   </div>
 </template>
 <style>
