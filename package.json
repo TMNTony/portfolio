@@ -30,6 +30,8 @@
     "vite": "^3.2.7",
     "vite-plugin-require-transform": "^1.0.21",
     "vite-plugin-vue-images": "^0.6.1",
-    "vue-eslint-parser": "^9.3.0"
+    "vue-eslint-parser": "^9.3.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.8"
   }
 }

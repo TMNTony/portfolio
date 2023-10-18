@@ -1,29 +1,39 @@
 <template>
   <div
-    class="min-w-0 break-words relative px-6 bg-white w-full mb-6 shadow-xl rounded-lg"
+    class="relative mb-6 w-full min-w-0 break-words rounded-lg bg-white px-6 shadow-xl"
   >
-    <div class="flex flex-col items-center justify-around mt-12">
+    <div class="mt-12 flex flex-col items-center justify-around">
       <div
-        class="text-xl leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase text-center"
+        class="mb-2 mt-0 text-center text-xl font-bold uppercase leading-normal text-gray-500"
       >
         {{ project.name }}
       </div>
       <div
+        v-if="project.pictures.length > 0"
         @click="showPics()"
-        class="text-sm leading-normal mt-0 mb-2 text-blue-500 cursor-pointer"
+        class="mb-2 mt-0 cursor-pointer text-sm leading-normal text-blue-500"
       >
         Show Pictures
       </div>
+      <a
+        v-if="project.site != null"
+        :href="project.site"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mb-2 mt-0 cursor-pointer text-sm leading-normal text-blue-500"
+      >
+        Go To Site
+      </a>
       <div v-if="showPictures" class="flex">
         <div
           v-for="picture in project.pictures"
           :key="picture"
-          class="relative m-10 border hover:border-indigo-500 cursor-pointer"
+          class="relative m-10 cursor-pointer border hover:border-indigo-500"
         >
           <img
             :src="imageUrl(picture)"
             alt="Example Image"
-            class="w-32 h-32 z-0"
+            class="z-0 h-32 w-32"
             @click.prevent="openModal(picture)"
           />
         </div>
@@ -33,35 +43,35 @@
         <div
           v-for="skill in project.skills"
           :key="skill"
-          class="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase"
+          class="mb-2 mt-0 text-sm font-bold uppercase leading-normal text-gray-500"
         >
-          <i class="fas fa-cog text-green-500 mr-2"></i>
+          <i class="fas fa-cog mr-2 text-green-500"></i>
           {{ skill }}
         </div>
       </div>
-      <div class="text-sm leading-normal mt-0 mb-2 w-2/3">
+      <div class="mb-2 mt-0 w-2/3 text-sm leading-normal">
         {{ project.description }}
       </div>
       <a
         :href="project.link"
         target="_blank"
         rel="noopener noreferrer"
-        class="text-sm leading-normal mt-0 mb-2 text-blue-500 font-bold uppercase"
+        class="mb-2 mt-0 text-sm font-bold uppercase leading-normal text-blue-500"
         >My Code</a
       >
     </div>
   </div>
   <div
     v-if="showModal"
-    class="overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center flex bg-black/70"
+    class="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden bg-black/70 outline-none focus:outline-none"
   >
     <a
-      class="fixed z-100 top-6 right-8 text-white text-5xl font-bold"
+      class="z-100 fixed right-8 top-6 text-5xl font-bold text-white"
       href="javascript:void(0)"
       @click="closeModal"
       >&times;</a
     >
-    <img :src="modalImageUrl" id="modal-img" class="object-cover z-100" />
+    <img :src="modalImageUrl" id="modal-img" class="z-100 object-cover" />
   </div>
 </template>
 
@@ -80,7 +90,7 @@ export default {
   },
   methods: {
     imageUrl(imagePath) {
-      return new URL(`/src/assets/${imagePath}`, import.meta.url)
+      return new URL(`/src/assets/${imagePath}`, import.meta.url);
     },
     openModal(imagePath) {
       this.modalImageUrl = new URL(`/src/assets/${imagePath}`, import.meta.url);
