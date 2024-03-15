@@ -39,11 +39,11 @@
         </div>
         <!-- Modal -->
       </div>
-      <div class="flex space-x-5">
+      <div class="flex justify-center flex-wrap space-x-5">
         <div
           v-for="skill in project.skills"
           :key="skill"
-          class="mb-2 mt-0 text-sm font-bold uppercase leading-normal text-gray-500"
+          class=" flex mb-2 mt-0  text-sm font-bold uppercase leading-normal text-gray-500"
         >
           <i class="fas fa-cog mr-2 text-green-500"></i>
           {{ skill }}
