@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <navbar-component></navbar-component>
-    <main class="profile-page">
+  <div>   <main class="profile-page">
       <section class="relative block" style="height: 500px" >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
@@ -34,7 +32,7 @@
           </svg>
         </div>
       </section>
-      <section class="relative py-12 bg-gray-300">
+      <section class="py-12 bg-gray-300">
         <div class="container mx-auto px-4">
           <div
             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64"
@@ -83,7 +81,7 @@
                   </div>
                 </div>
               </div>
-              <div class="mt-5 py-10 border-t border-gray-300 text-center">
+              <div class="mt-5 mb-4 py-10 border-t border-gray-300 ">
                 <div class="flex flex-wrap justify-center">
                   <div class="w-full lg:w-9/12 px-4">
                     <p class="mb-2 text-lg leading-relaxed text-gray-800">
@@ -93,11 +91,10 @@
                       abilities, meticulous attention to detail, and a passion
                       for continuous learning. My unique blend of music and
                       education experience adds diversity and valuable insights
-                      to any project. In my freetime, my hobbies include specialty coffee
+                      to any project. In my free time, my hobbies include specialty coffee
                       and continuing to make music both on my own, and with different
                       ensembles in the Birmingham metro area.
                     </p>
-                    <router-link :to="{ name: 'portfolio' }" class="text-sm leading-normal text-blue-500 font-bold uppercase">My Portfolio</router-link>
                   </div>
                 </div>
               </div>
@@ -106,17 +103,7 @@
         </div>
       </section>
     </main>
-    <footer-component></footer-component>
   </div>
 </template>
 <script>
-import NavbarComponent from "../components/Navbar.vue";
-import FooterComponent from "../components/Footer.vue";
-export default {
-  name: "profile-page",
-  components: {
-    NavbarComponent,
-    FooterComponent,
-  },
-};
 </script>

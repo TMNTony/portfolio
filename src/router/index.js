@@ -3,9 +3,8 @@ import { useStore } from 'vuex'
 
 
 // Import components
-import Profile from '../views/Profile.vue'
-import Portfolio from '../views/Portfolio.vue'
 import Resume from'../views/Resume.vue'
+import Home from "@/views/Home.vue";
 
 /**
  * The Vue Router is used to "direct" the browser to render a specific view component
@@ -14,13 +13,8 @@ import Resume from'../views/Resume.vue'
 const routes = [
   {
     path: "/",
-    name: 'profile',
-    component: Profile,
-  },
-  {
-    path: "/portfolio",
-    name: 'portfolio',
-    component: Portfolio
+    name: 'home',
+    component: Home,
   },
   {
     path: "/resume",

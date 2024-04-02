@@ -49,7 +49,7 @@
           {{ skill }}
         </div>
       </div>
-      <div class="mb-2 mt-0 w-2/3 text-sm leading-normal">
+      <div class="mb-2 mt-0  text-lg leading-normal">
         {{ project.description }}
       </div>
       <a

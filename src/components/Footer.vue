@@ -59,7 +59,7 @@
           <div class="flex justify-end flex-wrap items-top mb-6">
             <div class="w-full lg:w-4/12 px-4">
               <span
-                class="block uppercase text-gray-600 text-xl font-semibold mb-2"
+                class="block uppercase text-gray-600 text-xl font-semibold mb-2 mt-2"
                 >Other Resources</span
               >
               <ul class="list-unstyled">

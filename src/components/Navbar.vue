@@ -10,7 +10,7 @@
       >
         <router-link
           class="text-2xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-          :to="{ name: 'profile' }"
+          :to="{ name: 'home' }"
           >Home
         </router-link>
       </div>
